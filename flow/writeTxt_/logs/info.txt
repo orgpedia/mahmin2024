@@ -1,3 +1,22 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-62
-#docs: 62 #processed: 0
+63
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403071735197514.pdf missing_cmaps: mangal
+  exec_task: word_recognizer 
+	Replaced 1:5 >३(mangal-cid:16)<  >२.<
+  exec_task: pdftable_finder 
+	==Total:13 Errors=13 TableEmptyBodyCellError=13
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403071735197514.pdf: >शासन शुध्दीपत्रक क्रमांक< >ग्राक्षेवि-२०२३/प्र.क्र.१६१/का.९<
+	elapsed_time:202403071735197514.pdf: 0.000108
+  exec_task: doc_translator_hf 
+    Paras: #23 Sentences: #36
+	[0]  #words: 70 #sentences: 27
+	After generate: 2 MB
+	[0]  #words: 160 #sentences: 25
+	After generate: 2 MB
+  exec_task: text_writer 
+#docs: 63 #processed: 1
