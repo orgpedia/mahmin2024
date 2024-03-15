@@ -2,27 +2,6 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 67
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:0 Errors=0 
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403131400466614.pdf: >शासन निर्णय क्रमांक< >वसगृ २०२३/प्र.क्र.१४/का.८<
-	elapsed_time:202403131400466614.pdf: 0.000130
-  exec_task: doc_translator_hf 
-    Paras: #71 Sentences: #9
-	[0]  #words: 24 #sentences: 8
-	After generate: 2 MB
-	[0]  #words: 264 #sentences: 59
-	After generate: 3 MB
-	[1]  #words: 263 #sentences: 26
-	After generate: 3 MB
-	[2]  #words: 203 #sentences: 16
-	After generate: 3 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
 	202403131401467414.pdf missing_cmaps: sakalmarathinormal
   exec_task: word_recognizer 
 	Tesseract on page: 0
@@ -33,29 +12,4 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
   exec_task: line_finder 
   exec_task: para_finder 
 **** PIPEERROR IN 202403131401467414.pdf --> para 202403131401467414.pdf:Page_idx: 1 1 <-> [(0, 1), (0, 2)]
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403131406045214.pdf missing_cmaps: sakalmarathinormal
-  exec_task: word_recognizer 
-	Tesseract on page: 0
-	Tesseract on page: 1
-	Tesseract on page: 2
-  exec_task: pdftable_finder 
-	==Total:1 Errors=1 TableEmptyBodyCellError=1
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403131406045214.pdf: >शासन निर्णय क्रमांक< >तंत्रनि-२०२३/प्र.क्र. १३/का.८<
-	elapsed_time:202403131406045214.pdf: 0.000141
-  exec_task: doc_translator_hf 
-    Paras: #68 Sentences: #10
-	[0]  #words: 62 #sentences: 10
-	After generate: 3 MB
-	[0]  #words: 264 #sentences: 66
-	After generate: 13 MB
-	[1]  #words: 266 #sentences: 25
-	After generate: 13 MB
-	[2]  #words: 228 #sentences: 11
-	After generate: 13 MB
-  exec_task: text_writer 
-#docs: 67 #processed: 3
+#docs: 67 #processed: 1
