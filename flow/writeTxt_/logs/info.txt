@@ -1,15 +1,15 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-67
+70
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202403131401467414.pdf missing_cmaps: sakalmarathinormal
-  exec_task: word_recognizer 
-	Tesseract on page: 0
-	Tesseract on page: 1
-	Tesseract on page: 2
-  exec_task: pdftable_finder 
-	==Total:6 Errors=6 TableEmptyBodyCellError=6
-  exec_task: line_finder 
-  exec_task: para_finder 
-**** PIPEERROR IN 202403131401467414.pdf --> para 202403131401467414.pdf:Page_idx: 1 1 <-> [(0, 1), (0, 2)]
-#docs: 67 #processed: 1
+**** PIPEERROR IN 202403131401467414.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+**** PIPEERROR IN 202403151112072514.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+**** PIPEERROR IN 202403151737593614.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+**** PIPEERROR IN 202403151740430214.pdf --> int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+#docs: 70 #processed: 4
