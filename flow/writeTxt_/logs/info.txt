@@ -1,5 +1,5 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-71
+72
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
 	202403131401467414.pdf missing_cmaps: sakalmarathinormal
@@ -14,24 +14,24 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 **** PIPEERROR IN 202403131401467414.pdf --> para 202403131401467414.pdf:Page_idx: 1 1 <-> [(0, 1), (0, 2)]
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202403191739347114.pdf missing_cmaps: sakalmarathinormal
+	202403201635585314.pdf missing_cmaps: sakalmarathinormal
   exec_task: word_recognizer 
   exec_task: pdftable_finder 
-	==Total:2 Errors=2 TableEmptyBodyCellError=2
+	==Total:0 Errors=0 
   exec_task: line_finder 
   exec_task: para_finder 
   exec_task: extract_order_number 
-	extract_order_number:202403191739347114.pdf: >शासन निर्णय क्रमांक< >अविवि-२०२३/५८/प्र.क्र.४४/का-६<
-	elapsed_time:202403191739347114.pdf: 0.000086
+	extract_order_number:202403201635585314.pdf: >शासन निर्णय क्रमांक< >अविवि-२०२२/प्र.क्र.४८/का-६<
+	elapsed_time:202403201635585314.pdf: 0.000087
   exec_task: doc_translator_hf 
-    Paras: #76 Sentences: #14
-	[0]  #words: 40 #sentences: 12
-	After generate: 2 MB
-	[0]  #words: 262 #sentences: 52
+    Paras: #77 Sentences: #0
+	[0]  #words: 259 #sentences: 54
 	After generate: 3 MB
-	[1]  #words: 265 #sentences: 22
+	[1]  #words: 261 #sentences: 24
 	After generate: 3 MB
-	[2]  #words: 223 #sentences: 19
+	[2]  #words: 266 #sentences: 21
+	After generate: 3 MB
+	[3]  #words: 21 #sentences: 1
 	After generate: 3 MB
   exec_task: text_writer 
-#docs: 71 #processed: 2
+#docs: 72 #processed: 2
